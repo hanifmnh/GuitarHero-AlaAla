@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap');
+
+* {
+    padding: 2px;
+    margin: 2px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 550px;
+    margin: 15px auto;
+    background-color: rgb(180,180,180);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+button {
+    padding: 5px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+ul {
+    margin-left: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+#belt, #belt2, #belt3 {
+    width: 190px;
+    font-size: 19px;
+}
+
+.awal-merah{
+    color:red;
+}
+
+.awal-hijau{
+    color:green;
+}
+
+.container-full {
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 15px 15px rgb(120,120,120);
+}
+
+.container, .container2, .container3{
+    margin-left: 170px;
+    margin-right: 150px;
+}
+
+.container button, .container2 button, .container3 button {
+    position: absolute;
+    font-size: 15px;
+    width: 20px;
+    border-radius: 5px;
+}
+
+.cek-Ulang {
+    text-align: center;
+}
+
+.cek-Ulang button{
+    border-radius: 5px;
+    font-size: 15px;
+    width: 60px;
+}

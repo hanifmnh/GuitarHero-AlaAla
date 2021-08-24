@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guitar Hero Ala Ala</title>
+    <link rel="stylesheet" href="cssgitar.css"/>
+  </head>
+  <body>
+    <div class="container-full">
+      <h1>Welcome to Guitar Hero Ala Ala</h1>
+      <h2 id="awal" class="awal-merah">Wait For It</h2>
+      <br>
+      <div class="container">
+        <button onclick=tambah()>+</button>
+        <div id="belt">
+        </div>
+      </div>
+      <br>
+      <div class="container2">
+        <button onclick=kurang()>-</button>
+        <div id="belt2">
+        </div>
+      </div>
+      <br>
+      <div class="container3">
+        <button onclick=kali()>x</button>
+        <div id="belt3">
+        </div>
+      </div>
+      <br>
+      <div class="cek-Ulang">
+       <button onclick=cek()>Cek</button>
+        <button onclick=reset()>Ulang</button>
+      </div>
+      <br>
+      <p>Score : </p>
+      <p id="hasil">0</p>
+      <p id="test"></p>
+      <br>
+      <div class="aturan">
+        <h2>Aturan Dalam Game</h2>
+        <ul>
+          <li>Tunggu Tulisan Menjadi Game Start Baru Game Dapat Dimulai</li>
+          <li>Baris Pertama Untuk Fungsi Tambah</li>
+          <li>Baris Kedua Untuk Fungsi Kurang</li>
+          <li>Baris Ketiga Untuk Fungsi Perkalian</li>
+          <li>Jika Terkena Tanda "-" Maka Nilai Akan Kembali 0</li>
+          <li>Jika Nilai Sudah Mencapai 40 Maka Pemain Harus melakukan cek</li>
+          <li>jika Nilai Kurang Atau Lebih dari 40 Maka Nilai Akan menjadi 0</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+
+  <script type="text/javascript" src="jsgitar.js"></script>
+</html>
